@@ -10,8 +10,8 @@ print("Você digitou: ", chute)
 chuteNúmerico = int(chute)
 
 acertou = chuteNúmerico == numerosecreto
-maior = chuteNúmerico > numeroseceto
-menor = numeroNúmerico < numeroseceto
+maior = chuteNúmerico > numerosecreto
+menor = chuteNúmerico < numerosecreto
 
 #se você digitar qualquer número vou verificar se acertou ou errou
 if(numeroseceto == chuteNumerico):
