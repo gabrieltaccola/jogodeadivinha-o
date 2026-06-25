@@ -14,9 +14,10 @@ maior = chuteNúmerico > numerosecreto
 menor = chuteNúmerico < numerosecreto
 
 #se você digitar qualquer número vou verificar se acertou ou errou
-if(numeroseceto == chuteNumerico):
-    print("Você acertou!")
+if(acertou):
+    print("Você acertou!Fim de jogo")
 else:
-    print("Você errou!")
-
+    print("Você errou! O seu chute foi maior que o numero secreto")
+elif(menor):
+    print("Você errou! O seu chute foi maior que o nimero secreto")
 print("Fim de jogo")
