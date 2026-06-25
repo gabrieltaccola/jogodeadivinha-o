@@ -5,6 +5,11 @@ print("********************************")
 numeroseceto = random.randrange(1, 51)
 totaldetentativas = 10
 
+chute = input("Digite o seu número: ")
+print("Você digitou: ", chute)
+
+chuteNumerico = int(chute)
+
 while(totaldetentativas > 0):
     print("Você tem ", totaldetentativas, " tentativas")
     totaldetentativas = totaldetentativas - 1
