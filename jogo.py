@@ -14,12 +14,8 @@ while(totaldetentativas > 0):
     print("Você tem ", totaldetentativas, " tentativas")
     totaldetentativas = totaldetentativas - 1
     print("tentativa restante: ", totaldetentativas)
-    print("Qual é o seu chute?")
 
-chute = input("Digite o seu número: ")
-print("Você digitou: ", chute)
 
-chuteNúmerico = int(chute)
 
 acertou = chuteNúmerico == numerosecreto
 maior = chuteNúmerico > numerosecreto
